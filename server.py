@@ -14,7 +14,7 @@ except FileNotFoundError:
     print("[ERROR] Celesat nuk u gjeten! Ekzekuto 'pygenerate_keys.py' se pari.")
     exit()
 
-USERS = {"jane_doe": "password123", "user_1234": "user1234"}
+USERS = {"jane_doe": "password123", "admin": "admin123"}
 
 def handle_client(conn, addr):
     print(f"[SERVER] Lidhje e re nga {addr}")
